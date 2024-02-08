@@ -1,0 +1,33 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    background-image: url('https://wallpapercave.com/wp/5KLTq1z.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    z-index: -2;
+    color: white;
+    font: normal 18pt Verdana;
+  }
+  .container {
+    padding-top: 6em;
+    text-align: center;
+  }
+  #gen {
+    outline: none;
+    padding-top: 5px;
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+  }
